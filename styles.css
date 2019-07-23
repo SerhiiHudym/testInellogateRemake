@@ -1,0 +1,53 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span {
+    -webkit-animation: blink 2s linear infinite;
+    animation: blink 1s linear infinite;
+  }
+  @-webkit-keyframes blink {
+    50% { color: rgb(34, 34, 34); }
+    51% { color: rgba(34, 34, 34, 0); }
+    100% { color: rgba(34, 34, 34, 0); }
+  }
+  @keyframes blink {
+    50% { color: rgb(34, 34, 34); }
+    51% { color: rgba(34, 34, 34, 0); }
+    100% { color: rgba(34, 34, 34, 0); }
+  }
+
+h2 {
+  display: flex;
+  justify-content: center;
+  }
+
+#deviceButtonsDiv{
+  display: flex;
+  justify-content: space-around;
+}
+#deviceButtonsDiv button {
+  background-color: aquamarine;
+  color: black;
+  width: 200px;
+  height: 30px;
+    
+}
+#deviceDescribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h3 {
+    position: relative;
+}
+.status {
+  position: relative;
+}
+img {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+ margin-top: 2px;
+ margin-left: 2px;
+}
